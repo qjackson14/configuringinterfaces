@@ -22,6 +22,7 @@
 <h2>Step-by-Step</h2>
 
 <b>🟢 Part 1 — Configure R1</b>
+
 <b> 🔹 Set Hostname</b>
 
 - Access R1 CLI.
