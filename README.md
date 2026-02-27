@@ -22,7 +22,7 @@
 <h2>Step-by-Step</h2>
 
 <b>🟢 Part 1 — Configure R1</b>
-- 🔹 Set Hostname
+<b> 🔹 Set Hostname</b>
 
 - Access R1 CLI.
 
@@ -32,7 +32,7 @@
 
 - Set hostname: hostname R1
 
-- 🔹 Configure G0/0 Interface
+  <b>🔹 Configure G0/0 Interface</b>
 
 - Enter interface configuration mode: interface g0/0
 
@@ -50,13 +50,13 @@
 
 - Verify status again: do show ip interface brief
 
-- 🔹 Configure Unused Interfaces
+  <b>🔹 Configure Unused Interfaces</b>
 
 - Enter interface range mode: interface range g0/1 - 2
 
 - Add description: description ## not in use ##
 
-- 🔹 Verify and Save
+  <b>🔹 Verify and Save</b>
 
 - Verify configuration: do show running-config
 
@@ -67,7 +67,7 @@
 - Verify saved configuration: show startup-config
 
 <b>🟢 Part 2 — Configure PCs</b>
-- 🔹 PC1
+<b>🔹 PC1</b>
 
 - Click PC1 → Config → FastEthernet0
 
@@ -77,7 +77,7 @@
 
 - Confirm default gateway is 172.16.255.254
 
-- 🔹 PC2
+  <b>🔹 PC2</b>
 
 - Click PC2 → Config → FastEthernet0
 
@@ -85,7 +85,7 @@
 
 - Confirm subnet mask auto-fills to 255.255.0.0
 
--🔹 PC3
+<b>🔹 PC3</b>
 
 - Click PC3 → Config → FastEthernet0
 
@@ -93,7 +93,7 @@
 
 - Confirm subnet mask auto-fills to 255.255.0.0
 
--🔹 PC4
+<b>🔹 PC4</b>
 
 - Click PC4 → Config → FastEthernet0
 
@@ -102,7 +102,7 @@
 - Confirm subnet mask auto-fills to 255.255.0.0
 
 <b>🟢 Part 3 — Configure SW1</b>
-- 🔹 Set Hostname
+<b>🔹 Set Hostname</b>
 
 - Access SW1 CLI
 
@@ -112,11 +112,11 @@
 
 - Set hostname: hostname SW1
 
--🔹 Verify Interfaces
+<b>🔹 Verify Interfaces</b>
 
 - Check interface status: do show interfaces status
 
--🔹 Configure G0/1 (Connected to R1)
+<b>🔹 Configure G0/1 (Connected to R1)</b>
 
 - Enter interface mode: interface g0/1
 
@@ -126,7 +126,7 @@
 
 - Add description: description ## to R1 ##
 
--🔹 Configure G0/2 (Connected to SW2)
+<b>🔹 Configure G0/2 (Connected to SW2)</b>
 
 - Enter interface mode: interface g0/2
 
